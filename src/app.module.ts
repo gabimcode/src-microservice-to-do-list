@@ -7,7 +7,7 @@ import { TaskModule } from './modules/task.module';
   imports: [
     TaskModule,
     MongooseModule.forRoot(
-      'mongodb+srv://gabicarfi:taEJvDHY3SBfR4Yh@database.urrh1it.mongodb.net/?retryWrites=true&w=majority&appName=DataBase',
+      'mongodb+srv://<user>:<password>@database.urrh1it.mongodb.net/?retryWrites=true&w=majority&appName=DataBase',
     ),
   ],
 })
